@@ -11,6 +11,7 @@ Pythonのscikit-learnパッケージの使い方を日本語でアバウトに�
 	- カーネル関数を用いたsvmによるクラス分類
 - [LinerSVC]()
 	- 線形svmによるクラス分類
+	
 ## preprocessing
 データの整形などの前処理
 - [scale](preprocessing/scale)
