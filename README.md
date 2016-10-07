@@ -1,5 +1,5 @@
 # sklern_tutorial
-Pythonのscikit-learnパッケージの使い方を日本語でアバウトに書いていく(予定)
+Pythonのscikit-learnパッケージの使い方を日本語でアバウトに書いていく(予定)自分で使ったのしか書かないよ！！！
 
 ## [clustering](clustering)
 クラスタリングができる
