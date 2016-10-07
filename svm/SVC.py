@@ -5,11 +5,9 @@ from sklearn import datasets
 import pandas as pd
 
 #irisデータのロード
-iris = datasets.load_iris()
+features,target = datasets.load_iris(True)
 #必要な特徴を抜き出し
-features = np.array(pd.DataFrame(iris.data,columns = iris.feature_names).ix[:,2:])
-#ラベル(教師信号)の抜き出し
-target = iris.target
+features = np.array(features[:,2:])
 
 #SVMの学習
 clf = svm.SVC(C=1)
